@@ -16,6 +16,14 @@ The documentation [Associate automated tests with test cases](https://learn.micr
 
 If you aren't using Visual Studio, the StackOverflow article [Is there a way to associate Automated tests to Test Cases in Azure DevOps using VS Code?](https://stackoverflow.com/questions/63179342/is-there-a-way-to-associate-automated-tests-to-test-cases-in-azure-devops-using) provides an answer that uses an open source tool, [janono.ado.testcase.associate.cli](https://github.com/JanuszNowak/janono.ado.testcase.associate.cli), to associate automated tests with test cases.
 
+## Run Automated Tests from Test Plans
+
+[Run automated tests from test plans](https://learn.microsoft.com/azure/devops/test/run-automated-tests-from-test-hub?view=azure-devops)
+
+* Create build definition
+* Configure test plan settings
+* 
+
 
 
 ## References
