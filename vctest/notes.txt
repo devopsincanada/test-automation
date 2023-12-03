@@ -1,0 +1,61 @@
+
+Download the CLI:
+
+curl -L -o janono.ado.testcase.associate.cli.zip https://github.com/JanuszNowak/janono.ado.testcase.associate.cli/releases/download/0.4.1/janono.ado.testcase.associate.cli.zip
+
+unzip -p .\janono.ado.testcase.associate.cli.zip publish/janono.ado.testcase.associate.cli > janono.ado.testcase.associate.cli.exe
+
+
+64-bit Windows:
+
+curl -L -o janono.ado.testcase.associate.cli.zip https://github.com/JanuszNowak/janono.ado.testcase.associate.cli/releases/download/0.4.1/janono.ado.testcase.associate.cli_win-x64.zip
+
+unzip -d janono janono.ado.testcase.associate.cli.zip publish/*
+
+
+./janono/publish/janono.ado.testcase.associate.cli.exe --authMethod PAT --authValue $Env:PAT --path O:/sandbox/unit/bin/Debug/net8.0/unit.dll --url https://dev.azure.com/DevOpsInCanada --action Associate
+
+
+======================================
+
+ ./janono/publish/janono.ado.testcase.associate.cli.exe --authMethod PAT --authValue $Env:PAT --path O:/sandbox/unit/bin/Debug/net8.0/unit.dll --url https://dev.azure.com/DevOpsInCanada --action Associate
+    _                                                           _               _                  _
+   (_)   __ _   _ __     ___    _ __     ___         __ _    __| |   ___       | |_    ___   ___  | |_    ___    __ _   ___ 
+   | |  / _` | | '_ \   / _ \  | '_ \   / _ \       / _` |  / _` |  / _ \      | __|  / _ \ / __| | __|  / __|  / _` | / __|
+   | | | (_| | | | | | | (_) | | | | | | (_) |  _  | (_| | | (_| | | (_) |  _  | |_  |  __/ \__ \ | |_  | (__  | (_| | \__ \
+  _/ |  \__,_| |_| |_|  \___/  |_| |_|  \___/  (_)  \__,_|  \__,_|  \___/  (_)  \__|  \___| |___/  \__|  \___|  \__,_| |___/
+ |__/
+                                                _           _                       _   _ 
+   ___        __ _   ___   ___    ___     ___  (_)   __ _  | |_    ___        ___  | | (_)
+  / _ \      / _` | / __| / __|  / _ \   / __| | |  / _` | | __|  / _ \      / __| | | | |
+ |  __/  _  | (_| | \__ \ \__ \ | (_) | | (__  | | | (_| | | |_  |  __/  _  | (__  | | | |
+  \___| (_)  \__,_| |___/ |___/  \___/   \___| |_|  \__,_|  \__|  \___| (_)  \___| |_| |_|
+
+Action: Associate, url: https://dev.azure.com/DevOpsInCanada, authentication Type: PAT, path:
+O:/sandbox/unit/bin/Debug/net8.0/unit.dll
+                                    Tests found in assemblies
+┌──────────────────────────────────────┬──────────┬─────────────────────────────────┬────────────┐
+│ Organization                         │ Assembly │ Method                          │ TestCaseId │
+├──────────────────────────────────────┼──────────┼─────────────────────────────────┼────────────┤
+│ https://dev.azure.com/DevOpsInCanada │ unit.dll │ Demo.Tests.Test672              │ 672        │
+│ https://dev.azure.com/DevOpsInCanada │ unit.dll │ Demo.Tests.TestWithParameters   │ 673        │
+│ https://dev.azure.com/DevOpsInCanada │ unit.dll │ Demo.Tests.TestWithExternalData │ 674        │
+└──────────────────────────────────────┴──────────┴─────────────────────────────────┴────────────┘
+                                    Tests found in assemblies update insert need
+┌──────────────────────────────────────┬──────────┬─────────────────────────────────┬────────────┬──────────────────┐
+│ Organization                         │ Assembly │ Method                          │ TestCaseId │ NeedUpdateInsert │
+├──────────────────────────────────────┼──────────┼─────────────────────────────────┼────────────┼──────────────────┤
+│ https://dev.azure.com/DevOpsInCanada │ unit.dll │ Demo.Tests.Test672              │ 672        │ True             │
+│ https://dev.azure.com/DevOpsInCanada │ unit.dll │ Demo.Tests.TestWithParameters   │ 673        │ True             │
+│ https://dev.azure.com/DevOpsInCanada │ unit.dll │ Demo.Tests.TestWithExternalData │ 674        │ True             │
+└──────────────────────────────────────┴──────────┴─────────────────────────────────┴────────────┴──────────────────┘
+                                           Tests assosication status
+┌──────────────────────────────────────┬──────────┬─────────────────────────────────┬────────────┬────────────┐
+│ Organization                         │ Assembly │ Method                          │ TestCaseId │ StatusCode │
+├──────────────────────────────────────┼──────────┼─────────────────────────────────┼────────────┼────────────┤
+│ https://dev.azure.com/DevOpsInCanada │ unit.dll │ Demo.Tests.Test672              │ 672        │ OK         │
+│ https://dev.azure.com/DevOpsInCanada │ unit.dll │ Demo.Tests.TestWithParameters   │ 673        │ OK         │
+│ https://dev.azure.com/DevOpsInCanada │ unit.dll │ Demo.Tests.TestWithExternalData │ 674        │ OK         │
+└──────────────────────────────────────┴──────────┴─────────────────────────────────┴────────────┴────────────┘
+
+======================================
