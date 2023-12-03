@@ -44,7 +44,7 @@ public class Tests
     [Test]
     [TestCaseSource(typeof(Demo.TestData), nameof(Demo.TestData.TestCases))]
     [janono.ado.testcase.associate.TestCase(2584)]
-public void TestWithExternalData(int Number1, string Operator, int Number2, int Result)
+    public void TestWithExternalData(int Number1, string Operator, int Number2, int Result)
     {
         switch (Operator)
         {
