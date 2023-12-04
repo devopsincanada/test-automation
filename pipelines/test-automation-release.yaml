@@ -22,12 +22,42 @@ steps:
   #     projects: '**/UnitTests.csproj'
   #     arguments: '--filter FullyQualifiedName~TestSingle'
 
+  # - task: VSTest@2
+  #   displayName: 'Test run for Test plans'
+  #   inputs:
+  #     testSelector: testRun
+  #     vsTestVersion: 15.0
+  #     runInParallel: false
+  #     runTestsInIsolation: false
+  #     codeCoverageEnabled: false
+  #   continueOnError: true
+
   - task: VSTest@2
-    displayName: 'Test run for Test plans'
+    displayName: 'Run test plan 2580'
     inputs:
-      testSelector: testRun
-      vsTestVersion: 15.0
-      runInParallel: false
-      runTestsInIsolation: false
-      codeCoverageEnabled: false
-    continueOnError: true
+      testRunTitle: 'Test run title'
+      testSelector: 'testPlan'
+      testPlan: '2580'
+      testSuite: '2581'
+      testConfiguration: '124'
+      searchFolder: '$(System.DefaultWorkingDirectory)'
+      runSettingsFile: '/path/to/runsettings/or/testsettings/file'
+      overrideTestrunParameters: '-key1 value1 -key2 value2'
+      # runInParallel: false
+      # runTestsInIsolation: false
+      # codeCoverageEnabled: false
+      # failOnMinTestsNotRun: false
+      # resultsFolder: $(Agent.TempDirectory)\TestResults
+    # continueOnError: true
+
+  - task: PublishTestResults@2
+    displayName: Publish Test Results
+    inputs:
+      testRunTitle: 'Test run title'
+      testResultsFormat: 'NUnit'
+      testResultsFiles: '**/TEST-*.xml'
+      mergeTestResults: true
+      # failTaskOnFailedTests: true
+      # failTaskOnMissingResultsFile: true
+      # buildPlatform: 'BuildPlatform'
+      # buildConfiguration: 'BuildConfiguration'
