@@ -1,0 +1,33 @@
+
+trigger: none
+  # branches:
+  #   include:
+  #     - main
+
+pool:
+  vmImage: 'windows-latest'
+
+steps:
+
+  - task: DownloadPipelineArtifact@2
+    displayName: 'Download Pipeline Artifact'
+    inputs:
+      artifactName: 'TestAutomation'
+      path: '$(System.DefaultWorkingDirectory)'
+
+  # - task: DotNetCoreCLI@2
+  #   displayName: 'Run unit tests'
+  #   inputs:
+  #     command: test
+  #     projects: '**/UnitTests.csproj'
+  #     arguments: '--filter FullyQualifiedName~TestSingle'
+
+  - task: VSTest@2
+    displayName: 'Test run for Test plans'
+    inputs:
+      testSelector: testRun
+      vsTestVersion: 15.0
+      runInParallel: false
+      runTestsInIsolation: false
+      codeCoverageEnabled: false
+    continueOnError: true
