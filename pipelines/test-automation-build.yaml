@@ -1,0 +1,35 @@
+
+trigger: none
+  # branches:
+  #   include:
+  #     - main
+
+pool:
+  vmImage: 'windows-latest'
+
+steps:
+  - task: DotNetCoreCLI@2
+    displayName: 'Restore NuGet packages'
+    inputs:
+      command: restore
+      projects: '**/*.csproj'
+
+  - task: DotNetCoreCLI@2
+    displayName: 'Build solution'
+    inputs:
+      command: build
+      projects: '**/*.csproj'
+
+  - task: CopyFiles@2
+    displayName: 'Copy files to: $(Build.ArtifactStagingDirectory)'
+    inputs:
+      SourceFolder: '$(System.DefaultWorkingDirectory)'
+      Contents: '**/bin/**'
+      TargetFolder: '$(Build.ArtifactStagingDirectory)'
+
+  - task: PublishPipelineArtifact@1
+    displayName: 'Publish Pipeline Artifact'
+    inputs:
+      targetPath: '$(Build.ArtifactStagingDirectory)'
+      artifact: 'TestAutomation'
+      publishLocation: 'pipeline'
