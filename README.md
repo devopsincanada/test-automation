@@ -22,7 +22,7 @@ If you aren't using Visual Studio, the StackOverflow article [Is there a way to 
 
 * Create build definition
 * Configure test plan settings
-* 
+
 
 
 ## VSTest@2
