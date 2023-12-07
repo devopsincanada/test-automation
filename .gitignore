@@ -1,6 +1,8 @@
 .vs
 .vscode
+janono/
 **\bin
 **\obj
 *.log
 *.pdf
+*.zip
