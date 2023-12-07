@@ -25,6 +25,37 @@ If you aren't using Visual Studio, the StackOverflow article [Is there a way to 
 * 
 
 
+## VSTest@2
+
+From the [VSTest@2](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/test/vstest?view=azure-devops) documentation:
+
+| Parameter | Description | Required | Default |
+| --- | --- | --- | --- |
+| `testSelector` | Specifies the tests to run. Options include `testAssembly` (default), `testPlan`, `testRun`. | No | `testAssembly` |
+| `testAssemblyVer2` | The file paths to the test assemblies. | Yes (if `testSelector` is `testAssembly`) | - |
+| `testPlan` | The ID of the test plan. | Yes (if `testSelector` is `testPlan`) | - |
+| `testSuite` | The IDs of the test suites. | Yes (if `testSelector` is `testPlan`) | - |
+| `testConfiguration` | The ID of the test configuration. | No | - |
+| `overrideTestrunParameters` | Parameters to override in the test run. Format: `-key1 value1 -key2 value2`. | No | - |
+| `codeCoverageEnabled` | Enable code coverage. | No | `false` |
+| `runInParallel` | Run tests in parallel. | No | `false` |
+| `runTestsInIsolation` | Run tests in isolation. | No | `false` |
+| `vsTestVersion` | Version of Visual Studio Test to use. | No | `latest` |
+| `pathtoCustomTestAdapters` | Path to custom test adapters. | No | - |
+| `otherConsoleOptions` | Other console options to pass to VSTest console. | No | - |
+| `distributionBatchType` | Batch tests for distribution among agents. Options include `basedOnTestCases`, `basedOnExecutionTime`, `basedOnAssembly`. | No | `basedOnTestCases` |
+| `batchingBasedOnAgentsOption` | Batch tests based on number of agents and test size. Options include `autoBatchSize`, `userSpecifiedBatchSize`. | No | `autoBatchSize` |
+| `customBatchSizeValue` | User specified batch size if `batchingBasedOnAgentsOption` is `userSpecifiedBatchSize`. | No | - |
+| `dontDistribute` | Do not distribute tests, run all tests on a single agent. | No | `false` |
+| `testRunTitle` | Provide a name for the test run. | No | - |
+| `platform` | The platform for which the tests are to be run. | No | - |
+| `configuration` | The configuration for which the tests are to be run. | No | - |
+| `publishRunAttachments` | Publish run attachments. | No | `true` |
+
+
+
+Override parameters defined in the TestRunParameters section of runsettings file or Properties section of testsettings file. For example: -key1 value1 -key2 value2. Note: Properties specified in testsettings file can be accessed via the TestContext using Visual Studio 2017 Update 4 or higher
+
 
 ## References
 
