@@ -14,6 +14,14 @@ steps:
     inputs:
       artifactName: 'TestAutomation'
       path: '$(System.DefaultWorkingDirectory)'
+      # https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/download-pipeline-artifact-v2?view=azure-pipelines#examples
+      # *** From current pipeline ***
+      # buildType: 'current'
+      # *** From other pipeline ***
+      buildType: 'specific'
+      project: 'TestAutomation'
+      definition: '139'
+      buildVersionToDownload: 'latest'
 
   # - task: DotNetCoreCLI@2
   #   displayName: 'Run unit tests'
