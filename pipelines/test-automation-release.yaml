@@ -23,49 +23,81 @@ steps:
       definition: '139'
       buildVersionToDownload: 'latest'
 
-  # - task: DotNetCoreCLI@2
-  #   displayName: 'Run unit tests'
-  #   inputs:
-  #     command: test
-  #     projects: '**/UnitTests.csproj'
-  #     arguments: '--filter FullyQualifiedName~TestSingle'
+  - task: UseDotNet@2
+    displayName: 'Use .NET Core'
+    inputs:
+      version: 8.x
 
-  # - task: VSTest@2
-  #   displayName: 'Test run for Test plans'
-  #   inputs:
-  #     testSelector: testRun
-  #     vsTestVersion: 15.0
-  #     runInParallel: false
-  #     runTestsInIsolation: false
-  #     codeCoverageEnabled: false
-  #   continueOnError: true
+  - task: VisualStudioTestPlatformInstaller@1
+    displayName: 'Visual Studio Test Platform Installer'
+    inputs:
+      versionSelector: latestStable
 
   - task: VSTest@2
-    displayName: 'Run test plan 2580'
+    displayName: 'Test run for Test plans'
     inputs:
-      testRunTitle: 'Test run title'
-      testSelector: 'testPlan'
-      testPlan: '2580'
-      testSuite: '2581'
-      testConfiguration: '124'
-      searchFolder: '$(System.DefaultWorkingDirectory)'
-      runSettingsFile: '/path/to/runsettings/or/testsettings/file'
-      overrideTestrunParameters: '-key1 value1 -key2 value2'
-      # runInParallel: false
-      # runTestsInIsolation: false
-      # codeCoverageEnabled: false
-      # failOnMinTestsNotRun: false
-      # resultsFolder: $(Agent.TempDirectory)\TestResults
-    # continueOnError: true
+      testSelector: testPlan
+      testPlan: 2580
+      testSuite: 2581
+      testConfiguration: 124
+      vsTestVersion: toolsInstaller
+      runSettingsFile: '$(System.DefaultWorkingDirectory)/_test-automation-build/TestAutomation/bin/Debug/net8.0/Tests.runsettings'
+      runInParallel: false
+      runTestsInIsolation: false
+      codeCoverageEnabled: false
+    continueOnError: true
 
   - task: PublishTestResults@2
-    displayName: Publish Test Results
+    displayName: 'Publish Test Results **/TEST-*.xml'
     inputs:
-      testRunTitle: 'Test run title'
-      testResultsFormat: 'NUnit'
-      testResultsFiles: '**/TEST-*.xml'
-      mergeTestResults: true
-      # failTaskOnFailedTests: true
-      # failTaskOnMissingResultsFile: true
-      # buildPlatform: 'BuildPlatform'
-      # buildConfiguration: 'BuildConfiguration'
+      testResultsFormat: NUnit
+      testRunTitle: 'Test Run Title'
+    condition: succeededOrFailed()
+
+
+  # # - task: DotNetCoreCLI@2
+  # #   displayName: 'Run unit tests'
+  # #   inputs:
+  # #     command: test
+  # #     projects: '**/UnitTests.csproj'
+  # #     arguments: '--filter FullyQualifiedName~TestSingle'
+
+  # # - task: VSTest@2
+  # #   displayName: 'Test run for Test plans'
+  # #   inputs:
+  # #     testSelector: testRun
+  # #     vsTestVersion: 15.0
+  # #     runInParallel: false
+  # #     runTestsInIsolation: false
+  # #     codeCoverageEnabled: false
+  # #   continueOnError: true
+
+  # - task: VSTest@2
+  #   displayName: 'Run test plan 2580'
+  #   inputs:
+  #     testRunTitle: 'Test run title'
+  #     testSelector: 'testPlan'
+  #     testPlan: '2580'
+  #     testSuite: '2581'
+  #     testConfiguration: '124'
+  #     searchFolder: '$(System.DefaultWorkingDirectory)'
+  #     runSettingsFile: '/path/to/runsettings/or/testsettings/file'
+  #     overrideTestrunParameters: '-key1 value1 -key2 value2'
+  #     # runInParallel: false
+  #     # runTestsInIsolation: false
+  #     # codeCoverageEnabled: false
+  #     # failOnMinTestsNotRun: false
+  #     # resultsFolder: $(Agent.TempDirectory)\TestResults
+  #   # continueOnError: true
+
+  # - task: PublishTestResults@2
+  #   displayName: Publish Test Results
+  #   inputs:
+  #     testRunTitle: 'Test run title'
+  #     testResultsFormat: 'NUnit'
+  #     testResultsFiles: '**/TEST-*.xml'
+  #     mergeTestResults: true
+  #     # failTaskOnFailedTests: true
+  #     # failTaskOnMissingResultsFile: true
+  #     # buildPlatform: 'BuildPlatform'
+  #     # buildConfiguration: 'BuildConfiguration'
