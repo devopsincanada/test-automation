@@ -19,10 +19,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="./.runsettings">
+    <Content Include="./TestData.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="./TestData.csv">
+    <Content Include="./Tests.runsettings">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
