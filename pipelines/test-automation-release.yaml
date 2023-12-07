@@ -19,7 +19,7 @@ steps:
       # buildType: 'current'
       # *** From other pipeline ***
       buildType: 'specific'
-      project: 'TestAutomation'
+      project: 'demo-devops'
       definition: '139'
       buildVersionToDownload: 'latest'
 
