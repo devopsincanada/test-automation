@@ -3,7 +3,8 @@
   <RunConfiguration>
     <TestSelection>
       <TestPlanFilter>TestSingle</TestPlanFilter>
-      <!-- <TestPlanFilter>TestWithParameters</TestPlanFilter> -->
+      <TestPlanFilter>TestWithParameters</TestPlanFilter>
+      <TestPlanFilter>TestWithExternalData</TestPlanFilter>
     </TestSelection>
   </RunConfiguration>
 </RunSettings>
