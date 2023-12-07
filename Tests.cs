@@ -1,7 +1,7 @@
 namespace Demo;
 
 [janono.ado.testcase.associate.Organization("devopsincanada")]
-public class UnitTests
+public class Tests
 {
     [SetUp]
     public void Setup()
