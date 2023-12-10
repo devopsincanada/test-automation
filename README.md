@@ -23,6 +23,27 @@ If you aren't using Visual Studio, the StackOverflow article [Is there a way to 
 * Create build definition
 * Configure test plan settings
 
+## Install Playwright
+
+npm init playwright@latest --yes -- --quiet --browser=chromium --browser=firefox --browser=webkit --gha
+
+npm install csv-parser --save-dev
+
+npm install playwright-trx-reporter --save-dev
+
+
+
+
+## Using Playwright with Azure DevOps
+
+* [Parameterize tests](https://playwright.dev/docs/test-parameterize)
+
+## Using Playwright with Azure Pipelines
+
+* [Automating End-to-End testing with Playwright and Azure Pipelines](https://techcommunity.microsoft.com/t5/azure-architecture-blog/automating-end-to-end-testing-with-playwright-and-azure/ba-p/3883704)
+* [Playwright in an Azure DevOps Pipeline](https://timdeschryver.dev/blog/playwright-in-an-azure-devops-pipeline)
+* [Include attachments to your Playwright report](https://timdeschryver.dev/blog/include-attachments-to-your-playwright-report)
+* [Playwright Reporters: How to Integrate with Azure DevOps Pipelines](https://ultimateqa.com/playwright-reporters-how-to-integrate-with-azure-devops-pipelines/)
 
 
 ## VSTest@2

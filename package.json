@@ -1,0 +1,16 @@
+{
+  "name": "test-automation",
+  "version": "1.0.0",
+  "description": "The documentation [Associate automated tests with test cases](https://learn.microsoft.com/azure/devops/test/associate-automated-test-with-test-case?view=azure-devops) states:",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.4",
+    "csv-parser": "^3.0.0",
+    "playwright-trx-reporter": "^1.0.8"
+  }
+}

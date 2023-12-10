@@ -1,0 +1,2789 @@
+<TestRun xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" id="c987595f-712f-417b-b1c6-bc4b0fca2330" name="SKEELER-SSL\skeeler 2023-12-10T22:21:44.463Z" runUser="SKEELER-SSL\skeeler">
+<ResultSummary outcome="Failed">
+<Counters total="6" executed="6" passed="3" failed="3" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0"/>
+</ResultSummary>
+<Results>
+<UnitTestResult testName="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; Arizona zipcodes" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="a1553412-b25e-560b-bb63-33f7432d121e" executionId="333ce6dc-e9a8-4531-869f-2c3da4e8b090" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Passed" computerName="SKEELER-SSL" startTime="2023-12-10T22:21:44.992Z" endTime="2023-12-10T22:21:45.833Z" duration="00:00:00.841">
+<Output>
+<StdOut>
+<![CDATA[{
+  '﻿area': 'WESTPAC',
+  state: 'AZ',
+  city: 'FLAGSTAFF',
+  zipcode: '86011'
+}
+,{ '﻿area': 'WESTPAC', state: 'AZ', city: 'TEMPE', zipcode: '85287' }
+,{ '﻿area': 'WESTPAC', state: 'AZ', city: 'TUCSON', zipcode: '85709' }
+,{
+  'post code': '86011',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Flagstaff',
+      longitude: '-112.0524',
+      state: 'Arizona',
+      'state abbreviation': 'AZ',
+      latitude: '35.6308'
+    }
+  ]
+}
+,{
+  'post code': '85287',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Tempe',
+      longitude: '-111.9349',
+      state: 'Arizona',
+      'state abbreviation': 'AZ',
+      latitude: '33.4285'
+    }
+  ]
+}
+,{
+  'post code': '85709',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Tucson',
+      longitude: '-110.898',
+      state: 'Arizona',
+      'state abbreviation': 'AZ',
+      latitude: '32.2008'
+    }
+  ]
+}
+]]>
+</StdOut>
+</Output>
+</UnitTestResult>
+<UnitTestResult testName="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; California zipcodes" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="320fd5b8-92df-552b-a694-5ee8370d33ec" executionId="1589ee63-7f3c-4281-aef6-2df0275436b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Failed" computerName="SKEELER-SSL" startTime="2023-12-10T22:21:45.869Z" endTime="2023-12-10T22:21:55.754Z" duration="00:00:09.885">
+<Output>
+<StdOut>
+<![CDATA[{ '﻿area': 'WESTPAC', state: 'CA', city: 'ANAHEIM', zipcode: '92850' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'BERKELEY', zipcode: '94720' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'BURBANK', zipcode: '91521' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'CARSON', zipcode: '90747' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'CHICO', zipcode: '95929' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'CONCORD', zipcode: '94529' }
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'CRESCENT CITY',
+  zipcode: '95532'
+}
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'EDWARDS', zipcode: '93524' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'EL MONTE', zipcode: '91735' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'FOLSOM', zipcode: '95671' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'FRESNO', zipcode: '93724' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'GOLETA', zipcode: '93106' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'IRVINE', zipcode: '92697' }
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'LA MIRADA',
+  zipcode: '90639'
+}
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'LAGUNA HILLS',
+  zipcode: '92698'
+}
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'LEMOORE', zipcode: '93246' }
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'LOMA LINDA',
+  zipcode: '92350'
+}
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'LONG BEACH',
+  zipcode: '90840'
+}
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'LOS ANGELES',
+  zipcode: '90074'
+}
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'MALIBU', zipcode: '90263' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'MODESTO', zipcode: '95397' }
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'MONTEREY PARK',
+  zipcode: '91756'
+}
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'NOVATO', zipcode: '94998' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'OAKLAND', zipcode: '94622' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'OXNARD', zipcode: '93042' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'PALMDALE', zipcode: '93599' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'PASADENA', zipcode: '91110' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'PERRIS', zipcode: '92599' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'RESEDA', zipcode: '91330' }
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'RIVERSIDE',
+  zipcode: '92521'
+}
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'ROHNERT PARK',
+  zipcode: '94926'
+}
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'ROSEMEAD', zipcode: '91771' }
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'SACRAMENTO',
+  zipcode: '94204'
+}
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'SAN BERNARDINO',
+  zipcode: '92415'
+}
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'SAN DIEGO',
+  zipcode: '92092'
+}
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'SAN FRANCISCO',
+  zipcode: '94137'
+}
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'SAN JOSE', zipcode: '95190' }
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'SAN LUIS OBISPO',
+  zipcode: '93408'
+}
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'SAN MARCOS',
+  zipcode: '92096'
+}
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'SAN MATEO',
+  zipcode: '94497'
+}
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'SANTA CLARA',
+  zipcode: '95053'
+}
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'SHERMAN OAKS',
+  zipcode: '91495'
+}
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'SIMI VALLEY',
+  zipcode: '93064'
+}
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'STOCKTON', zipcode: '95211' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'TECATE', zipcode: '91987' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'VAN NUYS', zipcode: '91470' }
+,{ '﻿area': 'WESTPAC', state: 'CA', city: 'VENTURA', zipcode: '93009' }
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'WEST SACRAMENTO',
+  zipcode: '94203'
+}
+,{
+  '﻿area': 'WESTPAC',
+  state: 'CA',
+  city: 'WOODLAND HILLS',
+  zipcode: '91371'
+}
+,{
+  'post code': '92850',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Anaheim',
+      longitude: '-117.9555',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.8442'
+    }
+  ]
+}
+,{
+  'post code': '94720',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Berkeley',
+      longitude: '-122.2549',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '37.8738'
+    }
+  ]
+}
+,{
+  'post code': '91521',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Burbank',
+      longitude: '-118.2987',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.7866'
+    }
+  ]
+}
+,{
+  'post code': '90747',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Carson',
+      longitude: '-118.2538',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.8671'
+    }
+  ]
+}
+,{
+  'post code': '95929',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Chico',
+      longitude: '-121.8414',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '39.7301'
+    }
+  ]
+}
+,{
+  'post code': '94529',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Concord',
+      longitude: '-121.9554',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '37.7772'
+    }
+  ]
+}
+,{
+  'post code': '95532',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Crescent City',
+      longitude: '-124.2005',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '41.7561'
+    }
+  ]
+}
+,{
+  'post code': '93524',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Edwards',
+      longitude: '-117.9071',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '34.932'
+    }
+  ]
+}
+,{
+  'post code': '91735',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'El Monte',
+      longitude: '-118.2987',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.7866'
+    }
+  ]
+}
+,{
+  'post code': '95671',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Represa',
+      longitude: '-121.1694',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '38.7065'
+    }
+  ]
+}
+,{
+  'post code': '93724',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Fresno',
+      longitude: '-119.6397',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '36.7464'
+    }
+  ]
+}
+,{
+  'post code': '93106',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Santa Barbara',
+      longitude: '-119.8371',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '34.4329'
+    }
+  ]
+}
+,{
+  'post code': '92697',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Irvine',
+      longitude: '-117.8387',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.6485'
+    }
+  ]
+}
+,{
+  'post code': '90639',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'La Mirada',
+      longitude: '-118.0182',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.9058'
+    }
+  ]
+}
+,{
+  'post code': '92698',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Aliso Viejo',
+      longitude: '-117.8386',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.6686'
+    }
+  ]
+}
+,{
+  'post code': '93246',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Lemoore',
+      longitude: '-119.8947',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '36.1389'
+    }
+  ]
+}
+,{
+  'post code': '92350',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Loma Linda',
+      longitude: '-115.9671',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '34.84'
+    }
+  ]
+}
+,{
+  'post code': '90840',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Long Beach',
+      longitude: '-118.1157',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.7843'
+    }
+  ]
+}
+,{
+  'post code': '90074',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Los Angeles',
+      longitude: '-118.2987',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.7866'
+    }
+  ]
+}
+,{
+  'post code': '90263',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Malibu',
+      longitude: '-118.2987',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.7866'
+    }
+  ]
+}
+,{
+  'post code': '95397',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Modesto',
+      longitude: '-121.0191',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '37.6566'
+    }
+  ]
+}
+,{
+  'post code': '91756',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Monterey Park',
+      longitude: '-118.2987',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.7866'
+    }
+  ]
+}
+,{
+  'post code': '94998',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Novato',
+      longitude: '-122.5684',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '38.1173'
+    }
+  ]
+}
+,{
+  'post code': '94622',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Oakland',
+      longitude: '-122.2337',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '37.799'
+    }
+  ]
+}
+,{
+  'post code': '93042',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Point Mugu Nawc',
+      longitude: '-119.1124',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '34.1134'
+    }
+  ]
+}
+,{
+  'post code': '93599',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Palmdale',
+      longitude: '-118.2987',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.7866'
+    }
+  ]
+}
+,{
+  'post code': '91110',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Pasadena',
+      longitude: '-118.2987',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.7866'
+    }
+  ]
+}
+,{
+  'post code': '92599',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Perris',
+      longitude: '-116.0556',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.7529'
+    }
+  ]
+}
+,{
+  'post code': '91330',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Northridge',
+      longitude: '-118.2987',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.7866'
+    }
+  ]
+}
+,{
+  'post code': '92521',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Riverside',
+      longitude: '-116.0556',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.7529'
+    }
+  ]
+}
+,{
+  'post code': '94926',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Cotati',
+      longitude: '-122.99',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '38.4631'
+    }
+  ]
+}
+,{
+  'post code': '91771',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Rosemead',
+      longitude: '-118.2987',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.7866'
+    }
+  ]
+}
+,{
+  'post code': '94204',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Sacramento',
+      longitude: '-121.4444',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '38.3774'
+    }
+  ]
+}
+,{
+  'post code': '92415',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'San Bernardino',
+      longitude: '-115.9671',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '34.84'
+    }
+  ]
+}
+,{
+  'post code': '92092',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'La Jolla',
+      longitude: '-116.846',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.0169'
+    }
+  ]
+}
+,{
+  'post code': '94137',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'San Francisco',
+      longitude: '-122.7278',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '37.7848'
+    }
+  ]
+}
+,{
+  'post code': '95190',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'San Jose',
+      longitude: '-121.8868',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '37.3894'
+    }
+  ]
+}
+,{
+  'post code': '93408',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'San Luis Obispo',
+      longitude: '-120.4553',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '35.3471'
+    }
+  ]
+}
+,{
+  'post code': '92096',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'San Marcos',
+      longitude: '-116.846',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.0169'
+    }
+  ]
+}
+,{
+  'post code': '94497',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'San Mateo',
+      longitude: '-122.3259',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '37.5347'
+    }
+  ]
+}
+,{
+  'post code': '95053',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Santa Clara',
+      longitude: '-121.9378',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '37.3498'
+    }
+  ]
+}
+,{
+  'post code': '91495',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Sherman Oaks',
+      longitude: '-118.2987',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.7866'
+    }
+  ]
+}
+,{
+  'post code': '93064',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Brandeis',
+      longitude: '-118.7107',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '34.2582'
+    }
+  ]
+}
+,{
+  'post code': '95211',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Stockton',
+      longitude: '-121.311',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '37.9809'
+    }
+  ]
+}
+,{
+  'post code': '91987',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Tecate',
+      longitude: '-116.846',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.0169'
+    }
+  ]
+}
+,{
+  'post code': '91470',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Van Nuys',
+      longitude: '-118.2987',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.7866'
+    }
+  ]
+}
+,{
+  'post code': '93009',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Ventura',
+      longitude: '-119.1462',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '34.3562'
+    }
+  ]
+}
+,{
+  'post code': '94203',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Sacramento',
+      longitude: '-121.5554',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '38.3805'
+    }
+  ]
+}
+,{
+  'post code': '91371',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Woodland Hills',
+      longitude: '-118.2987',
+      state: 'California',
+      'state abbreviation': 'CA',
+      latitude: '33.7866'
+    }
+  ]
+}
+]]>
+</StdOut>
+<ErrorInfo>
+<Message>
+<![CDATA[Error: expect(received).toHaveProperty(path, value)
+
+Expected path: "place name"
+
+Expected value: "Folsom"
+Received value: "Represa"]]>
+</Message>
+<StackTrace>
+<![CDATA[
+  49 |       expect.soft(json).toHaveProperty('places');
+  50 |       expect.soft(json.places[0]).toHaveProperty('state abbreviation', zipcode.state);
+> 51 |       expect.soft(json.places[0]).toHaveProperty('place name', toTitleCase(zipcode.city));
+     |                                   ^
+  52 |     });
+  53 |   }
+  54 | }
+
+    at p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts:51:35
+    at testZipCodeAPI (p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts:43:5)
+    at p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts:73:5]]>
+</StackTrace>
+</ErrorInfo>
+</Output>
+</UnitTestResult>
+<UnitTestResult testName="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; Connecticut zipcodes" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="faec445d-c3fc-54e3-9249-32f0443c0c1c" executionId="0a94df2a-87e7-4078-bcbc-9b47d6445f75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Passed" computerName="SKEELER-SSL" startTime="2023-12-10T22:21:45.029Z" endTime="2023-12-10T22:21:48.535Z" duration="00:00:03.506">
+<Output>
+<StdOut>
+<![CDATA[{
+  '﻿area': 'ATLANTIC',
+  state: 'CT',
+  city: 'BRIDGEPORT',
+  zipcode: '06673'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'CT',
+  city: 'CHESHIRE',
+  zipcode: '06408'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'CT',
+  city: 'HARTFORD',
+  zipcode: '06167'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'CT',
+  city: 'FARMINGTON',
+  zipcode: '06030'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'CT',
+  city: 'HARTFORD',
+  zipcode: '06150'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'CT',
+  city: 'MANCHESTER',
+  zipcode: '06041'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'CT',
+  city: 'MIDDLETOWN',
+  zipcode: '06459'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'CT',
+  city: 'NEW HAVEN',
+  zipcode: '06537'
+}
+,{ '﻿area': 'ATLANTIC', state: 'CT', city: 'NORWALK', zipcode: '06857' }
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'CT',
+  city: 'RIDGEFIELD',
+  zipcode: '06879'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'CT',
+  city: 'STAMFORD',
+  zipcode: '06913'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'CT',
+  city: 'STORRS MANSFIELD',
+  zipcode: '06269'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'CT',
+  city: 'SUFFIELD',
+  zipcode: '06080'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'CT',
+  city: 'TORRINGTON',
+  zipcode: '06792'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'CT',
+  city: 'WALLINGFORD',
+  zipcode: '06493'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'CT',
+  city: 'WATERBURY',
+  zipcode: '06749'
+}
+,{
+  'post code': '06673',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Bridgeport',
+      longitude: '-73.3637',
+      state: 'Connecticut',
+      'state abbreviation': 'CT',
+      latitude: '41.3089'
+    }
+  ]
+}
+,{
+  'post code': '06408',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Cheshire',
+      longitude: '-72.9275',
+      state: 'Connecticut',
+      'state abbreviation': 'CT',
+      latitude: '41.3657'
+    }
+  ]
+}
+,{
+  'post code': '06167',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Hartford',
+      longitude: '-72.7188',
+      state: 'Connecticut',
+      'state abbreviation': 'CT',
+      latitude: '41.7918'
+    }
+  ]
+}
+,{
+  'post code': '06030',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Farmington',
+      longitude: '-72.7188',
+      state: 'Connecticut',
+      'state abbreviation': 'CT',
+      latitude: '41.7918'
+    }
+  ]
+}
+,{
+  'post code': '06150',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Hartford',
+      longitude: '-72.7188',
+      state: 'Connecticut',
+      'state abbreviation': 'CT',
+      latitude: '41.7918'
+    }
+  ]
+}
+,{
+  'post code': '06041',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Manchester',
+      longitude: '-72.5648',
+      state: 'Connecticut',
+      'state abbreviation': 'CT',
+      latitude: '41.7947'
+    }
+  ]
+}
+,{
+  'post code': '06459',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Middletown',
+      longitude: '-72.6582',
+      state: 'Connecticut',
+      'state abbreviation': 'CT',
+      latitude: '41.5565'
+    }
+  ]
+}
+,{
+  'post code': '06537',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'New Haven',
+      longitude: '-72.9275',
+      state: 'Connecticut',
+      'state abbreviation': 'CT',
+      latitude: '41.3657'
+    }
+  ]
+}
+,{
+  'post code': '06857',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Norwalk',
+      longitude: '-73.3637',
+      state: 'Connecticut',
+      'state abbreviation': 'CT',
+      latitude: '41.3089'
+    }
+  ]
+}
+,{
+  'post code': '06879',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Ridgefield',
+      longitude: '-73.3637',
+      state: 'Connecticut',
+      'state abbreviation': 'CT',
+      latitude: '41.3089'
+    }
+  ]
+}
+,{
+  'post code': '06913',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Stamford',
+      longitude: '-73.3637',
+      state: 'Connecticut',
+      'state abbreviation': 'CT',
+      latitude: '41.3089'
+    }
+  ]
+}
+,{
+  'post code': '06269',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Storrs Mansfield',
+      longitude: '-72.251',
+      state: 'Connecticut',
+      'state abbreviation': 'CT',
+      latitude: '41.808'
+    }
+  ]
+}
+,{
+  'post code': '06080',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Suffield',
+      longitude: '-72.6288',
+      state: 'Connecticut',
+      'state abbreviation': 'CT',
+      latitude: '41.9486'
+    }
+  ]
+}
+,{
+  'post code': '06792',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Torrington',
+      longitude: '-73.0582',
+      state: 'Connecticut',
+      'state abbreviation': 'CT',
+      latitude: '41.7549'
+    }
+  ]
+}
+,{
+  'post code': '06493',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Wallingford',
+      longitude: '-72.9275',
+      state: 'Connecticut',
+      'state abbreviation': 'CT',
+      latitude: '41.3657'
+    }
+  ]
+}
+,{
+  'post code': '06749',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Waterbury',
+      longitude: '-72.9275',
+      state: 'Connecticut',
+      'state abbreviation': 'CT',
+      latitude: '41.3657'
+    }
+  ]
+}
+]]>
+</StdOut>
+</Output>
+</UnitTestResult>
+<UnitTestResult testName="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; Georgia zipcodes" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="9c842524-a726-5ae3-93ff-4186d93d744b" executionId="6bbcb4c5-82c5-4756-9844-e810eaa62300" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Passed" computerName="SKEELER-SSL" startTime="2023-12-10T22:21:48.575Z" endTime="2023-12-10T22:21:52.416Z" duration="00:00:03.841">
+<Output>
+<StdOut>
+<![CDATA[{ '﻿area': 'SOUTHERN', state: 'GA', city: 'ALBANY', zipcode: '31704' }
+,{ '﻿area': 'SOUTHERN', state: 'GA', city: 'ATHENS', zipcode: '30602' }
+,{ '﻿area': 'SOUTHERN', state: 'GA', city: 'ATLANTA', zipcode: '30322' }
+,{ '﻿area': 'SOUTHERN', state: 'GA', city: 'AUGUSTA', zipcode: '30912' }
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'GA',
+  city: 'BRUNSWICK',
+  zipcode: '31524'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'GA',
+  city: 'CARROLLTON',
+  zipcode: '30118'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'GA',
+  city: 'COLUMBUS',
+  zipcode: '31993'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'GA',
+  city: 'COMMERCE',
+  zipcode: '30599'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'GA',
+  city: 'DAHLONEGA',
+  zipcode: '30597'
+}
+,{ '﻿area': 'SOUTHERN', state: 'GA', city: 'DULUTH', zipcode: '30098' }
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'GA',
+  city: 'EATONTON',
+  zipcode: '31026'
+}
+,{ '﻿area': 'SOUTHERN', state: 'GA', city: 'JESUP', zipcode: '31599' }
+,{ '﻿area': 'SOUTHERN', state: 'GA', city: 'MACON', zipcode: '31207' }
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'GA',
+  city: 'MARIETTA',
+  zipcode: '30063'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'GA',
+  city: 'MILLEDGEVILLE',
+  zipcode: '31062'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'GA',
+  city: 'PEACHTREE CITY',
+  zipcode: '30270'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'GA',
+  city: 'REIDSVILLE',
+  zipcode: '30499'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'GA',
+  city: 'STATESBORO',
+  zipcode: '30460'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'GA',
+  city: 'VALDOSTA',
+  zipcode: '31698'
+}
+,{
+  'post code': '31704',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Albany',
+      longitude: '-84.0612',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '31.55'
+    }
+  ]
+}
+,{
+  'post code': '30602',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Athens',
+      longitude: '-83.3724',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '33.9433'
+    }
+  ]
+}
+,{
+  'post code': '30322',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Atlanta',
+      longitude: '-84.3248',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '33.7952'
+    }
+  ]
+}
+,{
+  'post code': '30912',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Augusta',
+      longitude: '-81.9881',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '33.4705'
+    }
+  ]
+}
+,{
+  'post code': '31524',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Brunswick',
+      longitude: '-81.4826',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '31.222'
+    }
+  ]
+}
+,{
+  'post code': '30118',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Carrollton',
+      longitude: '-85.0961',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '33.5712'
+    }
+  ]
+}
+,{
+  'post code': '31993',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Columbus',
+      longitude: '-84.9771',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '32.4821'
+    }
+  ]
+}
+,{
+  'post code': '30599',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Commerce',
+      longitude: '-83.5874',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '34.1306'
+    }
+  ]
+}
+,{
+  'post code': '30597',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Dahlonega',
+      longitude: '-83.9809',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '34.5277'
+    }
+  ]
+}
+,{
+  'post code': '30098',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Duluth',
+      longitude: '-84.0379',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '33.9604'
+    }
+  ]
+}
+,{
+  'post code': '31026',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Eatonton',
+      longitude: '-83.377',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '33.3304'
+    }
+  ]
+}
+,{
+  'post code': '31599',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Jesup',
+      longitude: '-81.8802',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '31.5782'
+    }
+  ]
+}
+,{
+  'post code': '31207',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Macon',
+      longitude: '-83.6486',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '32.8304'
+    }
+  ]
+}
+,{
+  'post code': '30063',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Marietta',
+      longitude: '-84.5112',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '33.9653'
+    }
+  ]
+}
+,{
+  'post code': '31062',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Milledgeville',
+      longitude: '-83.2174',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '33.0491'
+    }
+  ]
+}
+,{
+  'post code': '30270',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Peachtree City',
+      longitude: '-84.59',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '33.3968'
+    }
+  ]
+}
+,{
+  'post code': '30499',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Reidsville',
+      longitude: '-81.9983',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '32.0507'
+    }
+  ]
+}
+,{
+  'post code': '30460',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Statesboro',
+      longitude: '-81.7823',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '32.418'
+    }
+  ]
+}
+,{
+  'post code': '31698',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Valdosta',
+      longitude: '-83.2878',
+      state: 'Georgia',
+      'state abbreviation': 'GA',
+      latitude: '30.8485'
+    }
+  ]
+}
+]]>
+</StdOut>
+</Output>
+</UnitTestResult>
+<UnitTestResult testName="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; Pennsylvania zipcodes" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="9184ea9f-8049-5246-bdaf-27955a1a1f2b" executionId="111b15b0-d715-4379-a136-093aa47d561d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Failed" computerName="SKEELER-SSL" startTime="2023-12-10T22:21:44.996Z" endTime="2023-12-10T22:21:53.401Z" duration="00:00:08.405">
+<Output>
+<StdOut>
+<![CDATA[{ '﻿area': 'ATLANTIC', state: 'PA', city: 'ALBION', zipcode: '16475' }
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'BETHLEHEM',
+  zipcode: '18003'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'BLUE BELL',
+  zipcode: '19424'
+}
+,{ '﻿area': 'ATLANTIC', state: 'PA', city: 'BOYERS', zipcode: '16016' }
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'CAMP HILL',
+  zipcode: '17089'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'CONSHOHOCKEN',
+  zipcode: '19429'
+}
+,{ '﻿area': 'ATLANTIC', state: 'PA', city: 'CRESSON', zipcode: '16699' }
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'DANVILLE',
+  zipcode: '17822'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'EDINBORO',
+  zipcode: '16444'
+}
+,{ '﻿area': 'ATLANTIC', state: 'PA', city: 'EMMAUS', zipcode: '18098' }
+,{ '﻿area': 'ATLANTIC', state: 'PA', city: 'ERIE', zipcode: '16522' }
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'FORT WASHINGTON',
+  zipcode: '19048'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'FRACKVILLE',
+  zipcode: '17932'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'GLEN MILLS',
+  zipcode: '19339'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'GREENSBURG',
+  zipcode: '15605'
+}
+,{ '﻿area': 'ATLANTIC', state: 'PA', city: 'HANOVER', zipcode: '17332' }
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'HARLEYSVILLE',
+  zipcode: '19441'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'HARRISBURG',
+  zipcode: '17107'
+}
+,{ '﻿area': 'ATLANTIC', state: 'PA', city: 'HOLMES', zipcode: '19098' }
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'HOUTZDALE',
+  zipcode: '16698'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'HUNTINGDON',
+  zipcode: '16654'
+}
+,{ '﻿area': 'ATLANTIC', state: 'PA', city: 'INDIANA', zipcode: '15705' }
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'LANCASTER',
+  zipcode: '17573'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'MEADVILLE',
+  zipcode: '16388'
+}
+,{ '﻿area': 'ATLANTIC', state: 'PA', city: 'MEDIA', zipcode: '19091' }
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'NEW KENSINGTON',
+  zipcode: '15069'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'NEW WILMINGTON',
+  zipcode: '16172'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'NORTH WALES',
+  zipcode: '19455'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'OLYPHANT',
+  zipcode: '18448'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'PEACH GLEN',
+  zipcode: '17375'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'PHILADELPHIA',
+  zipcode: '19092'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'PITTSBURGH',
+  zipcode: '15250'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'SCRANTON',
+  zipcode: '18540'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'SOMERSET',
+  zipcode: '15510'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'VALLEY FORGE',
+  zipcode: '19493'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'WARMINSTER',
+  zipcode: '18991'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'WEST CHESTER',
+  zipcode: '19383'
+}
+,{ '﻿area': 'ATLANTIC', state: 'PA', city: 'WEXFORD', zipcode: '15096' }
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'WILKES BARRE',
+  zipcode: '18762'
+}
+,{
+  '﻿area': 'ATLANTIC',
+  state: 'PA',
+  city: 'WILLIAMSPORT',
+  zipcode: '17705'
+}
+,{
+  'post code': '16475',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Albion',
+      longitude: '-80.0649',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '42.1827'
+    }
+  ]
+}
+,{
+  'post code': '18003',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Lehigh Valley',
+      longitude: '-75.4712',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.6934'
+    }
+  ]
+}
+,{
+  'post code': '19424',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Blue Bell',
+      longitude: '-75.3559',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.2119'
+    }
+  ]
+}
+,{
+  'post code': '16016',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Boyers',
+      longitude: '-79.9276',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.9211'
+    }
+  ]
+}
+,{
+  'post code': '17089',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Camp Hill',
+      longitude: '-76.936',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.2697'
+    }
+  ]
+}
+,{
+  'post code': '19429',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Conshohocken',
+      longitude: '-75.3559',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.2119'
+    }
+  ]
+}
+,{
+  'post code': '16699',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Cresson',
+      longitude: '-78.7022',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.4845'
+    }
+  ]
+}
+,{
+  'post code': '17822',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Danville',
+      longitude: '-76.6049',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.9674'
+    }
+  ]
+}
+,{
+  'post code': '16444',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Edinboro',
+      longitude: '-80.1218',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '41.8707'
+    }
+  ]
+}
+,{
+  'post code': '18098',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Emmaus',
+      longitude: '-75.4712',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.6934'
+    }
+  ]
+}
+,{
+  'post code': '16522',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Erie',
+      longitude: '-80.0649',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '42.1827'
+    }
+  ]
+}
+,{
+  'post code': '19048',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Langhorne',
+      longitude: '-74.9246',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.1735'
+    }
+  ]
+}
+,{
+  'post code': '17932',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Frackville',
+      longitude: '-76.5033',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.6491'
+    }
+  ]
+}
+,{
+  'post code': '19339',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Concordville',
+      longitude: '-75.406',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '39.934'
+    }
+  ]
+}
+,{
+  'post code': '15605',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Greensburg',
+      longitude: '-79.4398',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.3602'
+    }
+  ]
+}
+,{
+  'post code': '17332',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Hanover',
+      longitude: '-76.7351',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '39.775'
+    }
+  ]
+}
+,{
+  'post code': '19441',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Harleysville',
+      longitude: '-75.3559',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.2119'
+    }
+  ]
+}
+,{
+  'post code': '17107',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Harrisburg',
+      longitude: '-76.8764',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.297'
+    }
+  ]
+}
+,{
+  'post code': '19098',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Holmes',
+      longitude: '-75.3107',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '39.8954'
+    }
+  ]
+}
+,{
+  'post code': '16698',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Houtzdale',
+      longitude: '-78.4224',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.9891'
+    }
+  ]
+}
+,{
+  'post code': '16654',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Huntingdon',
+      longitude: '-77.967',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.4025'
+    }
+  ]
+}
+,{
+  'post code': '15705',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Indiana',
+      longitude: '-79.1294',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.64'
+    }
+  ]
+}
+,{
+  'post code': '17573',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Ronks',
+      longitude: '-76.2976',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.0185'
+    }
+  ]
+}
+,{
+  'post code': '16388',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Meadville',
+      longitude: '-80.1576',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '41.6596'
+    }
+  ]
+}
+,{
+  'post code': '19091',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Media',
+      longitude: '-75.406',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '39.934'
+    }
+  ]
+}
+,{
+  'post code': '15069',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'New Kensington',
+      longitude: '-79.4398',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.3602'
+    }
+  ]
+}
+,{
+  'post code': '16172',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'New Wilmington',
+      longitude: '-80.3332',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '41.12'
+    }
+  ]
+}
+,{
+  'post code': '19455',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'North Wales',
+      longitude: '-75.3559',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.2119'
+    }
+  ]
+}
+,{
+  'post code': '18448',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Olyphant',
+      longitude: '-75.5962',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '41.4649'
+    }
+  ]
+}
+,{
+  'post code': '17375',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Peach Glen',
+      longitude: '-77.2135',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '39.8948'
+    }
+  ]
+}
+,{
+  'post code': '19092',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Philadelphia',
+      longitude: '-75.1179',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.0018'
+    }
+  ]
+}
+,{
+  'post code': '15250',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Pittsburgh',
+      longitude: '-80.0248',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.4344'
+    }
+  ]
+}
+,{
+  'post code': '18540',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Scranton',
+      longitude: '-75.6376',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '41.4019'
+    }
+  ]
+}
+,{
+  'post code': '15510',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Somerset',
+      longitude: '-79.0409',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '39.9633'
+    }
+  ]
+}
+,{
+  'post code': '19493',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Valley Forge',
+      longitude: '-75.7481',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '39.9832'
+    }
+  ]
+}
+,{
+  'post code': '18991',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Warminster',
+      longitude: '-75.1028',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.3286'
+    }
+  ]
+}
+,{
+  'post code': '19383',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'West Chester',
+      longitude: '-75.6024',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '39.9454'
+    }
+  ]
+}
+,{
+  'post code': '15096',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Warrendale',
+      longitude: '-80.0248',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '40.4344'
+    }
+  ]
+}
+,{
+  'post code': '18762',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Wilkes Barre',
+      longitude: '-75.8801',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '41.2722'
+    }
+  ]
+}
+,{
+  'post code': '17705',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Williamsport',
+      longitude: '-77.0236',
+      state: 'Pennsylvania',
+      'state abbreviation': 'PA',
+      latitude: '41.3328'
+    }
+  ]
+}
+]]>
+</StdOut>
+<ErrorInfo>
+<Message>
+<![CDATA[Error: expect(received).toHaveProperty(path, value)
+
+Expected path: "place name"
+
+Expected value: "Bethlehem"
+Received value: "Lehigh Valley"]]>
+</Message>
+<StackTrace>
+<![CDATA[
+  49 |       expect.soft(json).toHaveProperty('places');
+  50 |       expect.soft(json.places[0]).toHaveProperty('state abbreviation', zipcode.state);
+> 51 |       expect.soft(json.places[0]).toHaveProperty('place name', toTitleCase(zipcode.city));
+     |                                   ^
+  52 |     });
+  53 |   }
+  54 | }
+
+    at p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts:51:35
+    at testZipCodeAPI (p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts:43:5)
+    at p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts:85:5]]>
+</StackTrace>
+</ErrorInfo>
+</Output>
+</UnitTestResult>
+<UnitTestResult testName="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; Texas zipcodes" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testId="4f487773-4c63-5160-b004-1756a36c9a3b" executionId="b58ef897-33f3-42a3-b721-5d9a8ff8b926" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" outcome="Failed" computerName="SKEELER-SSL" startTime="2023-12-10T22:21:54.149Z" endTime="2023-12-10T22:21:58.280Z" duration="00:00:04.131">
+<Output>
+<StdOut>
+<![CDATA[{ '﻿area': 'SOUTHERN', state: 'TX', city: 'ABILENE', zipcode: '79697' }
+,{ '﻿area': 'SOUTHERN', state: 'TX', city: 'ALPINE', zipcode: '79832' }
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'TX',
+  city: 'AMARILLO',
+  zipcode: '79166'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'TX',
+  city: 'ARLINGTON',
+  zipcode: '76019'
+}
+,{ '﻿area': 'SOUTHERN', state: 'TX', city: 'AUSTIN', zipcode: '73301' }
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'TX',
+  city: 'BIG SANDY',
+  zipcode: '75797'
+}
+,{ '﻿area': 'SOUTHERN', state: 'TX', city: 'BRYAN', zipcode: '77843' }
+,{ '﻿area': 'SOUTHERN', state: 'TX', city: 'CANYON', zipcode: '79016' }
+,{ '﻿area': 'SOUTHERN', state: 'TX', city: 'COPPELL', zipcode: '75099' }
+,{ '﻿area': 'SOUTHERN', state: 'TX', city: 'DALLAS', zipcode: '75275' }
+,{ '﻿area': 'SOUTHERN', state: 'TX', city: 'DEL RIO', zipcode: '78847' }
+,{ '﻿area': 'SOUTHERN', state: 'TX', city: 'EL PASO', zipcode: '79958' }
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'TX',
+  city: 'FORT WORTH',
+  zipcode: '76122'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'TX',
+  city: 'GALVESTON',
+  zipcode: '77555'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'TX',
+  city: 'GATESVILLE',
+  zipcode: '76596'
+}
+,{ '﻿area': 'SOUTHERN', state: 'TX', city: 'HOUSTON', zipcode: '77204' }
+,{ '﻿area': 'SOUTHERN', state: 'TX', city: 'IRVING', zipcode: '75059' }
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'TX',
+  city: 'LIVINGSTON',
+  zipcode: '77399'
+}
+,{ '﻿area': 'SOUTHERN', state: 'TX', city: 'LUBBOCK', zipcode: '79430' }
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'TX',
+  city: 'NACOGDOCHES',
+  zipcode: '75962'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'TX',
+  city: 'PALESTINE',
+  zipcode: '75882'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'TX',
+  city: 'ROUND ROCK',
+  zipcode: '78682'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'TX',
+  city: 'SAN ANGELO',
+  zipcode: '76909'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'TX',
+  city: 'SAN ANTONIO',
+  zipcode: '78288'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'TX',
+  city: 'STEPHENVILLE',
+  zipcode: '76402'
+}
+,{ '﻿area': 'SOUTHERN', state: 'TX', city: 'TEMPLE', zipcode: '76508' }
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'TX',
+  city: 'TENNESSEE COLONY',
+  zipcode: '75880'
+}
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'TX',
+  city: 'TEXARKANA',
+  zipcode: '75507'
+}
+,{ '﻿area': 'SOUTHERN', state: 'TX', city: 'TYLER', zipcode: '75798' }
+,{ '﻿area': 'SOUTHERN', state: 'TX', city: 'WACO', zipcode: '76797' }
+,{
+  '﻿area': 'SOUTHERN',
+  state: 'TX',
+  city: 'WOODVILLE',
+  zipcode: '75990'
+}
+,{
+  'post code': '79697',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Abilene',
+      longitude: '-99.8907',
+      state: 'Texas',
+      'state abbreviation': 'TX',
+      latitude: '32.3021'
+    }
+  ]
+}
+,{
+  'post code': '79832',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Alpine',
+      longitude: '-103.6539',
+      state: 'Texas',
+      'state abbreviation': 'TX',
+      latitude: '30.3631'
+    }
+  ]
+}
+,{
+  'post code': '79166',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Amarillo',
+      longitude: '-101.8951',
+      state: 'Texas',
+      'state abbreviation': 'TX',
+      latitude: '35.4015'
+    }
+  ]
+}
+,{
+  'post code': '76019',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Arlington',
+      longitude: '-97.2915',
+      state: 'Texas',
+      'state abbreviation': 'TX',
+      latitude: '32.7714'
+    }
+  ]
+}
+,{
+  'post code': '73301',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Austin',
+      longitude: '-97.7713',
+      state: 'Texas',
+      'state abbreviation': 'TX',
+      latitude: '30.3264'
+    }
+  ]
+}
+,{
+  'post code': '75797',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Big Sandy',
+      longitude: '-95.1313',
+      state: 'Texas',
+      'state abbreviation': 'TX',
+      latitude: '32.5765'
+    }
+  ]
+}
+,{
+  'post code': '77843',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'College Station',
+      longitude: '-96.341',
+      state: 'Texas',
+      'state abbreviation': 'TX',
+      latitude: '30.6521'
+    }
+  ]
+}
+,{
+  'post code': '79016',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Canyon',
+      longitude: '-101.8959',
+      state: 'Texas',
+      'state abbreviation': 'TX',
+      latitude: '34.9654'
+    }
+  ]
+}
+,{
+  'post code': '75099',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Coppell',
+      longitude: '-96.7996',
+      state: 'Texas',
+      'state abbreviation': 'TX',
+      latitude: '32.771'
+    }
+  ]
+}
+,{
+  'post code': '75275',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Dallas',
+      longitude: '-96.7776',
+      state: 'Texas',
+      'state abbreviation': 'TX',
+      latitude: '32.7673'
+    }
+  ]
+}
+,{
+  'post code': '78847',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Del Rio',
+      longitude: '-101.23',
+      state: 'Texas',
+      'state abbreviation': 'TX',
+      latitude: '29.7632'
+    }
+  ]
+}
+,{
+  'post code': '79958',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'El Paso',
+      longitude: '-106.3',
+      state: 'Texas',
+      'state abbreviation': 'TX',
+      latitude: '31.6948'
+    }
+  ]
+}
+,{
+  'post code': '76122',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Fort Worth',
+      longitude: '-97.2915',
+      state: 'Texas',
+      'state abbreviation': 'TX',
+      latitude: '32.7714'
+    }
+  ]
+}
+,{
+  'post code': '77555',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Galveston',
+      longitude: '-94.8002',
+      state: 'Texas',
+      'state abbreviation': 'TX',
+      latitude: '29.3305'
+    }
+  ]
+}
+,{
+  'post code': '76596',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Gatesville',
+      longitude: '-97.7993',
+      state: 'Texas',
+      'state abbreviation': 'TX',
+      latitude: '31.3902'
+    }
+  ]
+}
+,{
+  'post code': '77204',
+  country: 'United States',
+  'country abbreviation': 'US',
+  places: [
+    {
+      'place name': 'Houston',
+      longitude: '-95.4342',
+      state: 'Texas',
+      'state abbreviation': 'TX',
+      latitude: '29.834'
+    }
+  ]
+}
+]]>
+</StdOut>
+<ErrorInfo>
+<Message>
+<![CDATA[Error: expect(received).toHaveProperty(path, value)
+
+Expected path: "place name"
+
+Expected value: "Bryan"
+Received value: "College Station"]]>
+</Message>
+<StackTrace>
+<![CDATA[
+  49 |       expect.soft(json).toHaveProperty('places');
+  50 |       expect.soft(json.places[0]).toHaveProperty('state abbreviation', zipcode.state);
+> 51 |       expect.soft(json.places[0]).toHaveProperty('place name', toTitleCase(zipcode.city));
+     |                                   ^
+  52 |     });
+  53 |   }
+  54 | }
+
+    at p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts:51:35
+    at testZipCodeAPI (p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts:43:5)
+    at p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts:89:5]]>
+</StackTrace>
+</ErrorInfo>
+</Output>
+</UnitTestResult>
+</Results>
+<TestDefinitions>
+<UnitTest id="a1553412-b25e-560b-bb63-33f7432d121e" name="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; Arizona zipcodes" storage="p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts">
+<TestMethod className="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API" codeBase="p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts" name="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; Arizona zipcodes"/>
+</UnitTest>
+<UnitTest id="320fd5b8-92df-552b-a694-5ee8370d33ec" name="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; California zipcodes" storage="p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts">
+<TestMethod className="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API" codeBase="p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts" name="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; California zipcodes"/>
+</UnitTest>
+<UnitTest id="faec445d-c3fc-54e3-9249-32f0443c0c1c" name="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; Connecticut zipcodes" storage="p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts">
+<TestMethod className="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API" codeBase="p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts" name="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; Connecticut zipcodes"/>
+</UnitTest>
+<UnitTest id="9c842524-a726-5ae3-93ff-4186d93d744b" name="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; Georgia zipcodes" storage="p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts">
+<TestMethod className="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API" codeBase="p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts" name="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; Georgia zipcodes"/>
+</UnitTest>
+<UnitTest id="9184ea9f-8049-5246-bdaf-27955a1a1f2b" name="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; Pennsylvania zipcodes" storage="p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts">
+<TestMethod className="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API" codeBase="p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts" name="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; Pennsylvania zipcodes"/>
+</UnitTest>
+<UnitTest id="4f487773-4c63-5160-b004-1756a36c9a3b" name="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; Texas zipcodes" storage="p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts">
+<TestMethod className="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API" codeBase="p:\devopsincanada\demo-devops\test-automation\tests\zipcodes.spec.ts" name="chromium &gt; zipcodes.spec.ts &gt; Test zipcode API &gt; Texas zipcodes"/>
+</UnitTest>
+</TestDefinitions>
+<TestEntries>
+<TestEntry testId="a1553412-b25e-560b-bb63-33f7432d121e" executionId="333ce6dc-e9a8-4531-869f-2c3da4e8b090" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+<TestEntry testId="320fd5b8-92df-552b-a694-5ee8370d33ec" executionId="1589ee63-7f3c-4281-aef6-2df0275436b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+<TestEntry testId="faec445d-c3fc-54e3-9249-32f0443c0c1c" executionId="0a94df2a-87e7-4078-bcbc-9b47d6445f75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+<TestEntry testId="9c842524-a726-5ae3-93ff-4186d93d744b" executionId="6bbcb4c5-82c5-4756-9844-e810eaa62300" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+<TestEntry testId="9184ea9f-8049-5246-bdaf-27955a1a1f2b" executionId="111b15b0-d715-4379-a136-093aa47d561d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+<TestEntry testId="4f487773-4c63-5160-b004-1756a36c9a3b" executionId="b58ef897-33f3-42a3-b721-5d9a8ff8b926" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+</TestEntries>
+<TestLists>
+<TestList id="8c84fa94-04c1-424b-9868-57a2d4851a1d" name="Results Not in a List"/>
+<TestList id="19431567-8539-422a-85d7-44ee4e166bda" name="All Loaded Results"/>
+</TestLists>
+<Times creation="2023-12-10T22:21:44.463Z" finish="2023-12-10T22:21:58.369Z"/>
+</TestRun>

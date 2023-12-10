@@ -1,0 +1,53 @@
+name: Zipcode Tests
+ 
+variables:
+  CI: true
+ 
+trigger:
+  - main
+ 
+jobs:
+  - job: test
+    timeoutInMinutes: 60
+    pool:
+      vmImage: "ubuntu-latest"
+ 
+    steps:
+      - task: NodeTool@0
+        inputs:
+          versionSpec: "16.x"
+        displayName: "Install Node.js"
+ 
+      - script: |
+          npm ci
+        displayName: "Install dependencies"
+ 
+      - script: |
+          npx playwright install --with-deps
+        displayName: "Install Playwright Browsers"
+ 
+      - script: |
+          npx playwright test
+        displayName: "Run Playwright tests"
+ 
+      - publish: $(System.DefaultWorkingDirectory)/playwright-report
+        artifact: playwright-report
+        # always create the artifact, this is useful for debugging failed tests
+        condition: always()
+
+
+# -----------------------------------------------------------------------------
+# References:
+#
+# * Automating End-to-End testing with Playwright and Azure Pipelines
+#   https://techcommunity.microsoft.com/t5/azure-architecture-blog/automating-end-to-end-testing-with-playwright-and-azure/ba-p/3883704
+#
+# * Playwright in an Azure DevOps Pipeline
+#   https://timdeschryver.dev/blog/playwright-in-an-azure-devops-pipeline
+#
+# * Include attachments to your Playwright report
+#   https://timdeschryver.dev/blog/include-attachments-to-your-playwright-report
+#
+# * Playwright Reporters: How to Integrate with Azure DevOps Pipelines
+#   https://ultimateqa.com/playwright-reporters-how-to-integrate-with-azure-devops-pipelines/
+# -----------------------------------------------------------------------------
