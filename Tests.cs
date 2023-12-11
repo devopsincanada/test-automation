@@ -12,7 +12,38 @@ public class Tests
     [janono.ado.testcase.associate.TestCase(2582)]
     public void TestSingle()
     {
-        Assert.Pass();
+        Assert.Multiple(() => { // COMMENT
+
+            foreach (var item in TestData.TestCases)
+            {
+                int number1 = Int32.Parse(item.Arguments[0].ToString());
+                string op = item.Arguments[1].ToString();
+                int number2 = Int32.Parse(item.Arguments[2].ToString());
+                int result = Int32.Parse(item.Arguments[3].ToString());
+
+                switch (op)
+                {
+                    case "+":
+                        Console.WriteLine($"Checking that: {number1} + {number2} = {result}");
+                        Assert.That(number1 + number2, Is.EqualTo(result));
+                        break;
+                    case "-":
+                        Console.WriteLine($"Checking that: {number1} - {number2} = {result}");
+                        Assert.That(number1 - number2, Is.EqualTo(result));
+                        break;
+                    case "*":
+                        Console.WriteLine($"Checking that: {number1} * {number2} = {result}");
+                        Assert.That(number1 * number2, Is.EqualTo(result));
+                        break;
+                    case "/":
+                        Console.WriteLine($"Checking that: {number1} / {number2} = {result}");
+                        Assert.That(number1 / number2, Is.EqualTo(result));
+                        break;
+                }
+            }
+
+        }); // COMMENT
+
     }
 
     [Test]
