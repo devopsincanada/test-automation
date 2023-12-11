@@ -3,6 +3,7 @@ import { test, expect, APIRequestContext } from '@playwright/test';
 import exp from 'constants';
 import * as fs from 'fs';
 import csvParser from 'csv-parser';
+import { env } from 'node:process';
 
 type ZipCode = {
   area: string,
@@ -10,6 +11,8 @@ type ZipCode = {
   city: string,
   zipcode: string
 };
+
+const testDataDirectory = './test-data';
 
 function toTitleCase(str: string): string {
   return str.toLowerCase().replace(/(?:^|\s)\w/g, (match) => match.toUpperCase());
@@ -53,9 +56,15 @@ async function testZipCodeAPI(filename: string, request: APIRequestContext) {
   }
 }
 
-test.describe('Test zipcode API', () => {
+test('Test zipcodes with parameters', async ({request}) => {
+  const filename = process.env.TEST_FILENAME;
+  expect(filename).toBeDefined();
+  if (filename !== undefined) {
+    await testZipCodeAPI(`${testDataDirectory}/${filename}`, request);
+  }
+});
 
-  const testDataDirectory = './test-data';
+test.describe('Test zipcodes', () => {
 
   test.beforeAll(async () => {
     try {

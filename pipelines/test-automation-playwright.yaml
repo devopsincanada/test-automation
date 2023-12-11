@@ -28,8 +28,13 @@ jobs:
       #   displayName: "Install Playwright Browsers"
  
       - script: |
-          npx playwright test
-        displayName: "Run Playwright tests"
+          npx playwright test -g "Test zipcodes"
+        displayName: "Test zipcodes"
+
+      - script: |
+          echo "##vso[task.setvariable variable=TEST_FILENAME;]usps-zipcodes-MA.csv"
+          npx playwright test -g "Test zipcodes with parameters"
+        displayName: "Test zipcodes with parameters"
 
       - task: PublishTestResults@2
         inputs:
