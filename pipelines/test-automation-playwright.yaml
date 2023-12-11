@@ -28,11 +28,11 @@ jobs:
       #   displayName: "Install Playwright Browsers"
  
       - script: |
-          npx playwright test -g "Test zipcodes"
+          npx playwright test -g "Test zipcodes" --output "test-results/many"
         displayName: "Test zipcodes"
 
       - script: |
-          npx playwright test -g "Test zipcodes with parameters"
+          npx playwright test -g "Test zipcodes with parameters" --output "test-results/one"
         env:
           TEST_FILENAME: "usps-zipcodes-MA.csv"
         displayName: "Test zipcodes with parameters"
@@ -42,6 +42,7 @@ jobs:
         inputs:
           testResultsFiles: "**/results.xml"
           testRunTitle: "Playwright Tests"
+          mergeTestResults: true
         displayName: "Publish test results"
         condition: always()
  
