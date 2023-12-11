@@ -31,13 +31,13 @@ jobs:
           npx playwright test -g "Test zipcodes"
         displayName: "Test zipcodes"
 
-      - task: PublishTestResults@2
-        inputs:
-          testResultsFiles: "**/results.xml"
-          testRunTitle: "Playwright Tests"
-          mergeTestResults: true
-        displayName: "Publish test results"
-        condition: always()
+      # - task: PublishTestResults@2
+      #   inputs:
+      #     testResultsFiles: "**/results.xml"
+      #     testRunTitle: "Playwright Tests"
+      #     mergeTestResults: true
+      #   displayName: "Publish test results"
+      #   condition: always()
 
       - script: |
           npx playwright test -g "Test zipcodes with parameters"

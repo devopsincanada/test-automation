@@ -74,27 +74,27 @@ test.describe('Test zipcodes', () => {
     }
   });
 
-  test('Arizona zipcodes', async ({request}) => {
+  test('Arizona', async ({request}) => {
     await testZipCodeAPI(`${testDataDirectory}/usps-zipcodes-AZ.csv`, request);
   });
 
-  test('California zipcodes', async ({request}) => {
+  test('California', async ({request}) => {
     await testZipCodeAPI(`${testDataDirectory}/usps-zipcodes-CA.csv`, request);
   });
 
-  test('Connecticut zipcodes', async ({request}) => {
+  test('Connecticut', async ({request}) => {
     await testZipCodeAPI(`${testDataDirectory}/usps-zipcodes-CT.csv`, request);
   });
 
-  test('Georgia zipcodes', async ({request}) => {
+  test('Georgia', async ({request}) => {
     await testZipCodeAPI(`${testDataDirectory}/usps-zipcodes-GA.csv`, request);
   });
 
-  test('Pennsylvania zipcodes', async ({request}) => {
+  test('Pennsylvania', async ({request}) => {
     await testZipCodeAPI(`${testDataDirectory}/usps-zipcodes-PA.csv`, request);
   });
   
-  test('Texas zipcodes', async ({request}) => {
+  test('Texas', async ({request}) => {
     await testZipCodeAPI(`${testDataDirectory}/usps-zipcodes-TX.csv`, request);
   });
 
