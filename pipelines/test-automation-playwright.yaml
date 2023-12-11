@@ -30,10 +30,18 @@ jobs:
       - script: |
           npx playwright test
         displayName: "Run Playwright tests"
+
+      - task: PublishTestResults@2
+        inputs:
+          testResultsFiles: "**/results.xml"
+          testRunTitle: "Playwright Tests"
+        displayName: "Publish test results"
+        condition: always()
  
       - publish: $(System.DefaultWorkingDirectory)/test-results
         artifact: test-results
         # always create the artifact, this is useful for debugging failed tests
+        displayName: "Publish artifacts"
         condition: always()
 
 
