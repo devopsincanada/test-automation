@@ -32,7 +32,7 @@ jobs:
         displayName: "Run Playwright tests"
  
       - publish: $(System.DefaultWorkingDirectory)/test-results
-        artifact: playwright-report
+        artifact: test-results
         # always create the artifact, this is useful for debugging failed tests
         condition: always()
 
