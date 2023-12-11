@@ -35,6 +35,7 @@ jobs:
           echo "##vso[task.setvariable variable=TEST_FILENAME;]usps-zipcodes-MA.csv"
           npx playwright test -g "Test zipcodes with parameters"
         displayName: "Test zipcodes with parameters"
+        condition: always()
 
       - task: PublishTestResults@2
         inputs:
