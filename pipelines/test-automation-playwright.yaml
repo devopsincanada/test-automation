@@ -31,7 +31,7 @@ jobs:
           npx playwright test
         displayName: "Run Playwright tests"
  
-      - publish: $(System.DefaultWorkingDirectory)/playwright-report
+      - publish: $(System.DefaultWorkingDirectory)/test-results
         artifact: playwright-report
         # always create the artifact, this is useful for debugging failed tests
         condition: always()
