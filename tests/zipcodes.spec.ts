@@ -56,14 +56,6 @@ async function testZipCodeAPI(filename: string, request: APIRequestContext) {
   }
 }
 
-test('Test zipcodes with parameters', async ({request}) => {
-  const filename = process.env.TEST_FILENAME;
-  expect(filename).toBeDefined();
-  if (filename !== undefined) {
-    await testZipCodeAPI(`${testDataDirectory}/${filename}`, request);
-  }
-});
-
 test.describe('Test zipcodes', () => {
 
   test.beforeAll(async () => {
@@ -74,6 +66,14 @@ test.describe('Test zipcodes', () => {
     }
   });
 
+  test('_Environment_', async ({request}) => {
+    const filename = process.env.TEST_FILENAME;
+    expect(filename).toBeDefined();
+    if (filename !== undefined) {
+      await testZipCodeAPI(`${testDataDirectory}/${filename}`, request);
+    }
+  });
+  
   test('Arizona', async ({request}) => {
     await testZipCodeAPI(`${testDataDirectory}/usps-zipcodes-AZ.csv`, request);
   });
